@@ -13,3 +13,5 @@ En este caso realice una Pokedex, la cual es funcional, y te da una imagen, nomb
 - Está es una práctica por parte de "Innovaccion Virtual" Launch X
 
 ---
+
+![Pokedex](https://github.com/DagonNR/Pokedex-HTML-CSS-JS/images/pokedex.png)
