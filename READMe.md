@@ -14,4 +14,4 @@ En este caso realice una Pokedex, la cual es funcional, y te da una imagen, nomb
 
 ---
 
-![Pokedex](https://github.com/DagonNR/Pokedex-HTML-CSS-JS/images/pokedex.png)
+![Pokedex](https://github.com/DagonNR/Pokedex-HTML-CSS-JS/blob/main/images/pokedex.png)
