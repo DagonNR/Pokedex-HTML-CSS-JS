@@ -10,7 +10,7 @@ En este caso realice una Pokedex, la cual es funcional, y te da una imagen, nomb
 
 ## Importante
 - Es algo sencillo tanto de hacer como de usar, más que nada su finalidad de creación fue mejorar mis habilidades con HTML, CSS y JavaScript
-- Está es una práctica por parte de "Innovaccion Virtual" Launch X
+- Está es una práctica por parte de "Launch X"
 
 ---
 
