@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="pokedex">
+
+        <div class="pokedexIzq">
+            <div class="pokedexIzqLight">
+                <img src="images/button.png" alt="buttom" class="pokedexIzqLight1">
+            </div>
+
+            <div class="pokedexIzqDis">
+                <div class="pokedexIzqDisDis">
+                    <img src="https://static.wixstatic.com/media/df62c3_f72f6f760c08474a8e92627e09de07a4~mv2.gif" alt="pokemon" id="pokeImg" class="pokeImg">
+                    <div class="pokedexIzqDisDisText">
+                        <div class="id" id="id"></div>
+                        <div class="name" id="name"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pokedexIzqButtons">
+                <div class="pokedexIzqButtons1">
+                    <div class="pokedexIzqButtons11">
+                        <img src="https://icon-library.com/images/button-icon-png/button-icon-png-4.jpg" alt="buttonBlack" class="pokedexIzqButtons11Black">
+                        <div class="pokedexIzqButtons11Colors">
+                            <div class="pokedexIzqButtons11Red"></div>
+                            <div class="pokedexIzqButtons11Blue"></div>
+                        </div>    
+                    </div>
+
+                    <div class="pokedexIzqButtons12"></div>
+                </div>
+                <img src="images/d-pad.png" alt="buttonCruceta" class="buttonCruceta">
+            </div>
+        </div>
+
+        <div class="pokedexMedio">
+            <div class="pokedexMedio1"></div>
+            <div class="pokedexMedio1"></div>
+        </div>
+
+        <div class="pokedexDer">
+            <div class="pokedexDerData">
+                <div class="pokedexDerDataTypes">
+                    <h2 class="pokedexDerDataTittles">Types:</h2>
+                    <div class="pokedexDerDataData" id="types"></div>
+                </div>
+                <div class="pokedexDerDataAbilities">
+                    <h2 class="pokedexDerDataTittles">Abilities:</h2>
+                    <div class="pokedexDerDataData" id="abilities"></div>
+                </div>
+                <div class="pokedexDerDataStats">
+                    <h2 class="pokedexDerDataTittles">Stats:</h2>
+                    <div class="stats" id="stats"></div>
+                </div>
+            </div>
+
+            <input type="text" placeholder="Pokemon" id="pokeName" name="pokeName" class="pokeName">
+                
+            <div class="pokedexDerButton">
+                <button onclick="fetchPokemon()" class="pokeButton">Pokesearch</button>
+            </div>
+
+            <div class="pokedexDerData2">
+                <div><div class="pokeDataHW" id="height"></div></div>
+                <div><div class="pokeDataHW" id="weight"></div></div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+<footer>
+    <script src="js/index.js"></script>
+</footer>
+</html>
